@@ -1,0 +1,1050 @@
+0 verbose cli /root/.nvm/versions/node/v20.16.0/bin/node /root/.nvm/versions/node/v20.16.0/bin/npm
+1 info using npm@10.8.1
+2 info using node@v20.16.0
+3 silly config load:file:/root/.nvm/versions/node/v20.16.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/Swiss/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/root/.nvm/versions/node/v20.16.0/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-08-20T01_43_19_765Z-
+10 verbose logfile /root/.npm/_logs/2024-08-20T01_43_19_765Z-debug-0.log
+11 silly packumentCache heap:997195776 maxSize:249298944 maxEntrySize:124649472
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @openzeppelin/contracts@^4.9.3
+15 silly packumentCache full:https://registry.npmjs.org/@openzeppelin%2fcontracts cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@openzeppelin%2fcontracts 834ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@openzeppelin%2fcontracts set size:undefined disposed:false
+18 silly fetch manifest @swisstronik/utils@^1.2.1
+19 silly packumentCache full:https://registry.npmjs.org/@swisstronik%2futils cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@swisstronik%2futils 1443ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@swisstronik%2futils set size:undefined disposed:false
+22 silly fetch manifest @nomicfoundation/hardhat-toolbox@^3.0.0
+23 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox 2566ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox set size:55268 disposed:false
+26 silly fetch manifest @nomicfoundation/hardhat-chai-matchers@^2.0.0
+27 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-chai-matchers cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-chai-matchers 1484ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-chai-matchers set size:87830 disposed:false
+30 silly fetch manifest @nomicfoundation/hardhat-ethers@^3.0.0
+31 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-ethers cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-ethers 628ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-ethers set size:26672 disposed:false
+34 silly fetch manifest ethers@^6.1.0
+35 silly packumentCache full:https://registry.npmjs.org/ethers cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/ethers 1063ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/ethers set size:1309679 disposed:false
+38 silly fetch manifest hardhat@^2.17.1
+39 silly packumentCache full:https://registry.npmjs.org/hardhat cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/hardhat 817ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmjs.org/hardhat set size:921955 disposed:false
+42 silly fetch manifest ts-node@*
+43 silly packumentCache full:https://registry.npmjs.org/ts-node cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/ts-node 181ms (cache revalidated)
+45 silly packumentCache full:https://registry.npmjs.org/ts-node set size:574520 disposed:false
+46 silly fetch manifest @swc/core@>=1.2.50
+47 silly packumentCache full:https://registry.npmjs.org/@swc%2fcore cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore 324ms (cache revalidated)
+49 silly packumentCache full:https://registry.npmjs.org/@swc%2fcore set size:3184707 disposed:false
+50 silly fetch manifest @swc/helpers@*
+51 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 245ms (cache revalidated)
+53 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers set size:568005 disposed:false
+54 silly fetch manifest @swc/wasm@>=1.2.50
+55 silly packumentCache full:https://registry.npmjs.org/@swc%2fwasm cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/@swc%2fwasm 205ms (cache revalidated)
+57 silly packumentCache full:https://registry.npmjs.org/@swc%2fwasm set size:988999 disposed:false
+58 silly fetch manifest @types/node@*
+59 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 424ms (cache revalidated)
+61 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:8966660 disposed:false
+62 silly fetch manifest typescript@>=2.7
+63 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/typescript 490ms (cache revalidated)
+65 silly packumentCache full:https://registry.npmjs.org/typescript set size:13125942 disposed:false
+66 silly fetch manifest chai@^4.2.0
+67 silly packumentCache full:https://registry.npmjs.org/chai cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/chai 162ms (cache revalidated)
+69 silly packumentCache full:https://registry.npmjs.org/chai set size:194264 disposed:false
+70 silly fetch manifest @nomicfoundation/hardhat-network-helpers@^1.0.0
+71 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-network-helpers cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-network-helpers 610ms (cache revalidated)
+73 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-network-helpers set size:64854 disposed:false
+74 silly fetch manifest @nomicfoundation/hardhat-verify@^1.0.0
+75 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-verify cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-verify 1113ms (cache revalidated)
+77 silly packumentCache full:https://registry.npmjs.org/@nomicfoundation%2fhardhat-verify set size:69116 disposed:false
+78 silly fetch manifest @typechain/ethers-v6@^0.4.0
+79 silly packumentCache full:https://registry.npmjs.org/@typechain%2fethers-v6 cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/@typechain%2fethers-v6 1442ms (cache revalidated)
+81 silly packumentCache full:https://registry.npmjs.org/@typechain%2fethers-v6 set size:35710 disposed:false
+82 silly fetch manifest typechain@^8.3.1
+83 silly packumentCache full:https://registry.npmjs.org/typechain cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/typechain 565ms (cache revalidated)
+85 silly packumentCache full:https://registry.npmjs.org/typechain set size:389293 disposed:false
+86 silly fetch manifest @typechain/hardhat@^8.0.0
+87 silly packumentCache full:https://registry.npmjs.org/@typechain%2fhardhat cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@typechain%2fhardhat 1416ms (cache revalidated)
+89 silly packumentCache full:https://registry.npmjs.org/@typechain%2fhardhat set size:103526 disposed:false
+90 silly fetch manifest @types/chai@^4.2.0
+91 silly packumentCache full:https://registry.npmjs.org/@types%2fchai cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/@types%2fchai 178ms (cache revalidated)
+93 silly packumentCache full:https://registry.npmjs.org/@types%2fchai set size:205409 disposed:false
+94 silly fetch manifest @types/mocha@>=9.1.0
+95 silly packumentCache full:https://registry.npmjs.org/@types%2fmocha cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/@types%2fmocha 163ms (cache revalidated)
+97 silly packumentCache full:https://registry.npmjs.org/@types%2fmocha set size:127727 disposed:false
+98 silly fetch manifest hardhat-gas-reporter@^1.0.8
+99 silly packumentCache full:https://registry.npmjs.org/hardhat-gas-reporter cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/hardhat-gas-reporter 899ms (cache revalidated)
+101 silly packumentCache full:https://registry.npmjs.org/hardhat-gas-reporter set size:135399 disposed:false
+102 silly fetch manifest solidity-coverage@^0.8.1
+103 silly packumentCache full:https://registry.npmjs.org/solidity-coverage cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/solidity-coverage 906ms (cache revalidated)
+105 silly packumentCache full:https://registry.npmjs.org/solidity-coverage set size:625323 disposed:false
+106 silly placeDep ROOT @nomicfoundation/hardhat-toolbox@3.0.0 REPLACE for:  want: ^3.0.0
+107 silly placeDep ROOT typechain@8.3.2 OK for: @nomicfoundation/hardhat-toolbox@3.0.0 want: ^8.2.0
+108 silly placeDep ROOT @typechain/hardhat@8.0.3 OK for: @nomicfoundation/hardhat-toolbox@3.0.0 want: ^8.0.0
+109 silly placeDep ROOT @typechain/ethers-v6@0.4.3 OK for: @typechain/hardhat@8.0.3 want: ^0.4.3
+110 silly placeDep ROOT @nomicfoundation/hardhat-verify@1.1.1 OK for: @nomicfoundation/hardhat-toolbox@3.0.0 want: ^1.0.0
+111 silly placeDep ROOT @openzeppelin/contracts@4.9.6 OK for:  want: ^4.9.3
+112 silly placeDep ROOT @swisstronik/utils@1.3.0 OK for:  want: ^1.2.1
+113 silly fetch manifest cbor@^8.1.0
+114 silly packumentCache full:https://registry.npmjs.org/cbor cache-miss
+115 silly fetch manifest table@^6.8.0
+116 silly packumentCache full:https://registry.npmjs.org/table cache-miss
+117 silly fetch manifest lodash.clonedeep@^4.5.0
+118 silly packumentCache full:https://registry.npmjs.org/lodash.clonedeep cache-miss
+119 silly fetch manifest fs-extra@^9.1.0
+120 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+121 silly fetch manifest ts-essentials@^7.0.1
+122 silly packumentCache full:https://registry.npmjs.org/ts-essentials cache-miss
+123 silly fetch manifest @types/prettier@^2.1.1
+124 silly packumentCache full:https://registry.npmjs.org/@types%2fprettier cache-miss
+125 silly fetch manifest glob@7.1.7
+126 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+127 http fetch GET 200 https://registry.npmjs.org/glob 430ms (cache revalidated)
+128 silly packumentCache full:https://registry.npmjs.org/glob set size:430869 disposed:false
+129 silly fetch manifest mkdirp@^1.0.4
+130 silly packumentCache full:https://registry.npmjs.org/mkdirp cache-miss
+131 http fetch GET 200 https://registry.npmjs.org/fs-extra 484ms (cache revalidated)
+132 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:220826 disposed:false
+133 silly fetch manifest ts-command-line-args@^2.2.0
+134 silly packumentCache full:https://registry.npmjs.org/ts-command-line-args cache-miss
+135 http fetch GET 200 https://registry.npmjs.org/@types%2fprettier 509ms (cache revalidated)
+136 silly packumentCache full:https://registry.npmjs.org/@types%2fprettier set size:152382 disposed:false
+137 silly fetch manifest prettier@^2.3.1
+138 silly packumentCache full:https://registry.npmjs.org/prettier cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/ts-essentials 517ms (cache revalidated)
+140 silly packumentCache full:https://registry.npmjs.org/ts-essentials set size:199140 disposed:false
+141 silly fetch manifest @noble/hashes@^1.3.0
+142 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/table 531ms (cache revalidated)
+144 silly packumentCache full:https://registry.npmjs.org/table set size:293521 disposed:false
+145 silly fetch manifest @oasisprotocol/deoxysii@0.0.5
+146 silly packumentCache full:https://registry.npmjs.org/@oasisprotocol%2fdeoxysii cache-miss
+147 http fetch GET 200 https://registry.npmjs.org/lodash.clonedeep 550ms (cache revalidated)
+148 silly packumentCache full:https://registry.npmjs.org/lodash.clonedeep set size:48192 disposed:false
+149 silly fetch manifest bech32@^2.0.0
+150 silly packumentCache full:https://registry.npmjs.org/bech32 cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/mkdirp 163ms (cache revalidated)
+152 silly packumentCache full:https://registry.npmjs.org/mkdirp set size:116455 disposed:false
+153 silly fetch manifest ethers@5.7.2
+154 silly packumentCache full:https://registry.npmjs.org/ethers cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/ethers 8ms (cache hit)
+156 silly packumentCache full:https://registry.npmjs.org/ethers set size:1309679 disposed:false
+157 silly fetch manifest rlp@^3.0.0
+158 silly packumentCache full:https://registry.npmjs.org/rlp cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/cbor 688ms (cache revalidated)
+160 silly packumentCache full:https://registry.npmjs.org/cbor set size:189750 disposed:false
+161 http fetch GET 200 https://registry.npmjs.org/prettier 205ms (cache revalidated)
+162 silly packumentCache full:https://registry.npmjs.org/prettier set size:535092 disposed:false
+163 http fetch GET 200 https://registry.npmjs.org/rlp 133ms (cache revalidated)
+164 silly packumentCache full:https://registry.npmjs.org/rlp set size:87105 disposed:false
+165 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 254ms (cache revalidated)
+166 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes set size:159005 disposed:false
+167 http fetch GET 200 https://registry.npmjs.org/ts-command-line-args 1092ms (cache revalidated)
+168 silly packumentCache full:https://registry.npmjs.org/ts-command-line-args set size:177150 disposed:false
+169 http fetch GET 200 https://registry.npmjs.org/bech32 1041ms (cache revalidated)
+170 silly packumentCache full:https://registry.npmjs.org/bech32 set size:20789 disposed:false
+171 http fetch GET 200 https://registry.npmjs.org/@oasisprotocol%2fdeoxysii 1543ms (cache miss)
+172 silly packumentCache full:https://registry.npmjs.org/@oasisprotocol%2fdeoxysii set size:undefined disposed:false
+173 silly placeDep ROOT cbor@8.1.0 OK for: @nomicfoundation/hardhat-verify@1.1.1 want: ^8.1.0
+174 silly placeDep ROOT lodash.clonedeep@4.5.0 OK for: @nomicfoundation/hardhat-verify@1.1.1 want: ^4.5.0
+175 silly placeDep ROOT table@6.8.2 OK for: @nomicfoundation/hardhat-verify@1.1.1 want: ^6.8.0
+176 silly fetch manifest nofilter@^3.1.0
+177 silly packumentCache full:https://registry.npmjs.org/nofilter cache-miss
+178 silly fetch manifest ajv@^8.0.1
+179 silly packumentCache full:https://registry.npmjs.org/ajv cache-miss
+180 silly fetch manifest lodash.truncate@^4.4.2
+181 silly packumentCache full:https://registry.npmjs.org/lodash.truncate cache-miss
+182 silly fetch manifest slice-ansi@^4.0.0
+183 silly packumentCache full:https://registry.npmjs.org/slice-ansi cache-miss
+184 http fetch GET 200 https://registry.npmjs.org/slice-ansi 154ms (cache revalidated)
+185 silly packumentCache full:https://registry.npmjs.org/slice-ansi set size:30549 disposed:false
+186 http fetch GET 200 https://registry.npmjs.org/lodash.truncate 159ms (cache revalidated)
+187 silly packumentCache full:https://registry.npmjs.org/lodash.truncate set size:22282 disposed:false
+188 http fetch GET 200 https://registry.npmjs.org/ajv 170ms (cache revalidated)
+189 silly packumentCache full:https://registry.npmjs.org/ajv set size:1126072 disposed:false
+190 http fetch GET 200 https://registry.npmjs.org/nofilter 727ms (cache revalidated)
+191 silly packumentCache full:https://registry.npmjs.org/nofilter set size:53456 disposed:false
+192 silly placeDep node_modules/@swisstronik/utils @noble/hashes@1.4.0 OK for: @swisstronik/utils@1.3.0 want: ^1.3.0
+193 silly placeDep ROOT @oasisprotocol/deoxysii@0.0.5 OK for: @swisstronik/utils@1.3.0 want: 0.0.5
+194 silly placeDep node_modules/@swisstronik/utils bech32@2.0.0 OK for: @swisstronik/utils@1.3.0 want: ^2.0.0
+195 silly placeDep node_modules/@swisstronik/utils ethers@5.7.2 OK for: @swisstronik/utils@1.3.0 want: 5.7.2
+196 silly placeDep node_modules/@swisstronik/utils rlp@3.0.0 OK for: @swisstronik/utils@1.3.0 want: ^3.0.0
+197 silly fetch manifest bsaes@0.0.2
+198 silly packumentCache full:https://registry.npmjs.org/bsaes cache-miss
+199 silly fetch manifest uint32@^0.2.1
+200 silly packumentCache full:https://registry.npmjs.org/uint32 cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/uint32 361ms (cache miss)
+202 silly packumentCache full:https://registry.npmjs.org/uint32 set size:undefined disposed:false
+203 http fetch GET 200 https://registry.npmjs.org/bsaes 1019ms (cache miss)
+204 silly packumentCache full:https://registry.npmjs.org/bsaes set size:undefined disposed:false
+205 silly placeDep ROOT bsaes@0.0.2 OK for: @oasisprotocol/deoxysii@0.0.5 want: 0.0.2
+206 silly placeDep ROOT uint32@0.2.1 OK for: @oasisprotocol/deoxysii@0.0.5 want: ^0.2.1
+207 silly fetch manifest typescript@>=4.7.0
+208 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+209 http fetch GET 200 https://registry.npmjs.org/typescript 39ms (cache hit)
+210 silly packumentCache full:https://registry.npmjs.org/typescript set size:13125942 disposed:false
+211 silly placeDep ROOT ts-essentials@7.0.3 OK for: @typechain/ethers-v6@0.4.3 want: ^7.0.1
+212 silly placeDep node_modules/@typechain/hardhat fs-extra@9.1.0 OK for: @typechain/hardhat@8.0.3 want: ^9.1.0
+213 silly fetch manifest at-least-node@^1.0.0
+214 silly packumentCache full:https://registry.npmjs.org/at-least-node cache-miss
+215 silly fetch manifest jsonfile@^6.0.1
+216 silly packumentCache full:https://registry.npmjs.org/jsonfile cache-miss
+217 silly fetch manifest universalify@^2.0.0
+218 silly packumentCache full:https://registry.npmjs.org/universalify cache-miss
+219 http fetch GET 200 https://registry.npmjs.org/jsonfile 172ms (cache revalidated)
+220 silly packumentCache full:https://registry.npmjs.org/jsonfile set size:49758 disposed:false
+221 http fetch GET 200 https://registry.npmjs.org/at-least-node 182ms (cache revalidated)
+222 silly packumentCache full:https://registry.npmjs.org/at-least-node set size:4075 disposed:false
+223 http fetch GET 200 https://registry.npmjs.org/universalify 219ms (cache revalidated)
+224 silly packumentCache full:https://registry.npmjs.org/universalify set size:19431 disposed:false
+225 silly placeDep ROOT nofilter@3.1.0 OK for: cbor@8.1.0 want: ^3.1.0
+226 silly placeDep ROOT ajv@8.17.1 OK for: table@6.8.2 want: ^8.0.1
+227 silly placeDep ROOT lodash.truncate@4.4.2 OK for: table@6.8.2 want: ^4.4.2
+228 silly placeDep ROOT slice-ansi@4.0.0 OK for: table@6.8.2 want: ^4.0.0
+229 silly fetch manifest fast-deep-equal@^3.1.3
+230 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal cache-miss
+231 silly fetch manifest fast-uri@^3.0.1
+232 silly packumentCache full:https://registry.npmjs.org/fast-uri cache-miss
+233 silly fetch manifest json-schema-traverse@^1.0.0
+234 silly packumentCache full:https://registry.npmjs.org/json-schema-traverse cache-miss
+235 silly fetch manifest require-from-string@^2.0.2
+236 silly packumentCache full:https://registry.npmjs.org/require-from-string cache-miss
+237 silly fetch manifest ansi-styles@^4.0.0
+238 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+239 silly fetch manifest astral-regex@^2.0.0
+240 silly packumentCache full:https://registry.npmjs.org/astral-regex cache-miss
+241 http fetch GET 200 https://registry.npmjs.org/fast-uri 151ms (cache revalidated)
+242 silly packumentCache full:https://registry.npmjs.org/fast-uri set size:37661 disposed:false
+243 http fetch GET 200 https://registry.npmjs.org/require-from-string 152ms (cache revalidated)
+244 silly packumentCache full:https://registry.npmjs.org/require-from-string set size:15128 disposed:false
+245 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 157ms (cache revalidated)
+246 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal set size:48634 disposed:false
+247 http fetch GET 200 https://registry.npmjs.org/ansi-styles 174ms (cache revalidated)
+248 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:66356 disposed:false
+249 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse 208ms (cache revalidated)
+250 silly packumentCache full:https://registry.npmjs.org/json-schema-traverse set size:23537 disposed:false
+251 http fetch GET 200 https://registry.npmjs.org/astral-regex 208ms (cache revalidated)
+252 silly packumentCache full:https://registry.npmjs.org/astral-regex set size:5602 disposed:false
+253 silly placeDep ROOT fast-deep-equal@3.1.3 OK for: ajv@8.17.1 want: ^3.1.3
+254 silly placeDep ROOT fast-uri@3.0.1 OK for: ajv@8.17.1 want: ^3.0.1
+255 silly placeDep ROOT json-schema-traverse@1.0.0 OK for: ajv@8.17.1 want: ^1.0.0
+256 silly placeDep ROOT require-from-string@2.0.2 OK for: ajv@8.17.1 want: ^2.0.2
+257 silly placeDep node_modules/slice-ansi ansi-styles@4.3.0 OK for: slice-ansi@4.0.0 want: ^4.0.0
+258 silly placeDep ROOT astral-regex@2.0.0 OK for: slice-ansi@4.0.0 want: ^2.0.0
+259 silly fetch manifest color-convert@^2.0.1
+260 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+261 http fetch GET 200 https://registry.npmjs.org/color-convert 170ms (cache revalidated)
+262 silly packumentCache full:https://registry.npmjs.org/color-convert set size:61781 disposed:false
+263 silly placeDep ROOT @types/prettier@2.7.3 OK for: typechain@8.3.2 want: ^2.1.1
+264 silly placeDep node_modules/typechain glob@7.1.7 OK for: typechain@8.3.2 want: 7.1.7
+265 silly placeDep node_modules/typechain mkdirp@1.0.4 OK for: typechain@8.3.2 want: ^1.0.4
+266 silly placeDep ROOT prettier@2.8.8 OK for: typechain@8.3.2 want: ^2.3.1
+267 silly placeDep ROOT ts-command-line-args@2.5.1 OK for: typechain@8.3.2 want: ^2.2.0
+268 silly fetch manifest chalk@^4.1.0
+269 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+270 silly fetch manifest command-line-args@^5.1.1
+271 silly packumentCache full:https://registry.npmjs.org/command-line-args cache-miss
+272 silly fetch manifest command-line-usage@^6.1.0
+273 silly packumentCache full:https://registry.npmjs.org/command-line-usage cache-miss
+274 silly fetch manifest string-format@^2.0.0
+275 silly packumentCache full:https://registry.npmjs.org/string-format cache-miss
+276 http fetch GET 200 https://registry.npmjs.org/chalk 154ms (cache revalidated)
+277 silly packumentCache full:https://registry.npmjs.org/chalk set size:141442 disposed:false
+278 http fetch GET 200 https://registry.npmjs.org/command-line-usage 179ms (cache revalidated)
+279 silly packumentCache full:https://registry.npmjs.org/command-line-usage set size:114312 disposed:false
+280 http fetch GET 200 https://registry.npmjs.org/string-format 188ms (cache revalidated)
+281 silly packumentCache full:https://registry.npmjs.org/string-format set size:16327 disposed:false
+282 http fetch GET 200 https://registry.npmjs.org/command-line-args 190ms (cache revalidated)
+283 silly packumentCache full:https://registry.npmjs.org/command-line-args set size:155687 disposed:false
+284 silly placeDep node_modules/ts-command-line-args chalk@4.1.2 OK for: ts-command-line-args@2.5.1 want: ^4.1.0
+285 silly placeDep ROOT command-line-args@5.2.1 OK for: ts-command-line-args@2.5.1 want: ^5.1.1
+286 silly placeDep ROOT command-line-usage@6.1.3 OK for: ts-command-line-args@2.5.1 want: ^6.1.0
+287 silly placeDep ROOT string-format@2.0.0 OK for: ts-command-line-args@2.5.1 want: ^2.0.0
+288 silly fetch manifest ansi-styles@^4.1.0
+289 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-hit
+290 silly fetch manifest supports-color@^7.1.0
+291 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+292 silly fetch manifest typical@^4.0.0
+293 silly packumentCache full:https://registry.npmjs.org/typical cache-miss
+294 silly fetch manifest array-back@^3.1.0
+295 silly packumentCache full:https://registry.npmjs.org/array-back cache-miss
+296 silly fetch manifest find-replace@^3.0.0
+297 silly packumentCache full:https://registry.npmjs.org/find-replace cache-miss
+298 silly fetch manifest lodash.camelcase@^4.3.0
+299 silly packumentCache full:https://registry.npmjs.org/lodash.camelcase cache-miss
+300 silly fetch manifest typical@^5.2.0
+301 silly packumentCache full:https://registry.npmjs.org/typical cache-miss
+302 silly fetch manifest array-back@^4.0.2
+303 silly packumentCache full:https://registry.npmjs.org/array-back cache-miss
+304 http fetch GET 200 https://registry.npmjs.org/array-back 278ms (cache revalidated)
+305 silly packumentCache full:https://registry.npmjs.org/array-back set size:54278 disposed:false
+306 silly fetch manifest table-layout@^1.0.2
+307 silly packumentCache full:https://registry.npmjs.org/table-layout cache-miss
+308 http fetch GET 200 https://registry.npmjs.org/find-replace 314ms (cache revalidated)
+309 silly packumentCache full:https://registry.npmjs.org/find-replace set size:35015 disposed:false
+310 http fetch GET 200 https://registry.npmjs.org/typical 315ms (cache revalidated)
+311 silly packumentCache full:https://registry.npmjs.org/typical set size:68839 disposed:false
+312 http fetch GET 200 https://registry.npmjs.org/supports-color 355ms (cache revalidated)
+313 silly packumentCache full:https://registry.npmjs.org/supports-color set size:113904 disposed:false
+314 http fetch GET 200 https://registry.npmjs.org/array-back 385ms (cache revalidated)
+315 silly packumentCache full:https://registry.npmjs.org/array-back set size:54278 disposed:false
+316 silly packumentCache full:https://registry.npmjs.org/array-back dispose
+317 http fetch GET 200 https://registry.npmjs.org/typical 411ms (cache revalidated)
+318 silly packumentCache full:https://registry.npmjs.org/typical set size:68839 disposed:false
+319 silly packumentCache full:https://registry.npmjs.org/typical dispose
+320 http fetch GET 200 https://registry.npmjs.org/lodash.camelcase 406ms (cache revalidated)
+321 silly packumentCache full:https://registry.npmjs.org/lodash.camelcase set size:16993 disposed:false
+322 http fetch GET 200 https://registry.npmjs.org/table-layout 225ms (cache revalidated)
+323 silly packumentCache full:https://registry.npmjs.org/table-layout set size:73929 disposed:false
+324 silly placeDep ROOT array-back@3.1.0 OK for: command-line-args@5.2.1 want: ^3.1.0
+325 silly placeDep ROOT find-replace@3.0.0 OK for: command-line-args@5.2.1 want: ^3.0.0
+326 silly placeDep ROOT lodash.camelcase@4.3.0 OK for: command-line-args@5.2.1 want: ^4.3.0
+327 silly placeDep ROOT typical@4.0.0 OK for: command-line-args@5.2.1 want: ^4.0.0
+328 silly placeDep node_modules/command-line-usage array-back@4.0.2 OK for: command-line-usage@6.1.3 want: ^4.0.2
+329 silly placeDep ROOT table-layout@1.0.2 OK for: command-line-usage@6.1.3 want: ^1.0.2
+330 silly placeDep node_modules/command-line-usage typical@5.2.0 OK for: command-line-usage@6.1.3 want: ^5.2.0
+331 silly fetch manifest array-back@^4.0.1
+332 silly packumentCache full:https://registry.npmjs.org/array-back cache-hit
+333 silly fetch manifest wordwrapjs@^4.0.0
+334 silly packumentCache full:https://registry.npmjs.org/wordwrapjs cache-miss
+335 silly fetch manifest deep-extend@~0.6.0
+336 silly packumentCache full:https://registry.npmjs.org/deep-extend cache-miss
+337 http fetch GET 200 https://registry.npmjs.org/deep-extend 157ms (cache revalidated)
+338 silly packumentCache full:https://registry.npmjs.org/deep-extend set size:34472 disposed:false
+339 http fetch GET 200 https://registry.npmjs.org/wordwrapjs 202ms (cache revalidated)
+340 silly packumentCache full:https://registry.npmjs.org/wordwrapjs set size:42888 disposed:false
+341 silly placeDep node_modules/table-layout array-back@4.0.2 OK for: table-layout@1.0.2 want: ^4.0.1
+342 silly placeDep ROOT deep-extend@0.6.0 OK for: table-layout@1.0.2 want: ~0.6.0
+343 silly placeDep node_modules/table-layout typical@5.2.0 OK for: table-layout@1.0.2 want: ^5.2.0
+344 silly placeDep ROOT wordwrapjs@4.0.1 OK for: table-layout@1.0.2 want: ^4.0.0
+345 silly fetch manifest reduce-flatten@^2.0.0
+346 silly packumentCache full:https://registry.npmjs.org/reduce-flatten cache-miss
+347 http fetch GET 200 https://registry.npmjs.org/reduce-flatten 246ms (cache revalidated)
+348 silly packumentCache full:https://registry.npmjs.org/reduce-flatten set size:13438 disposed:false
+349 silly placeDep ROOT reduce-flatten@2.0.0 OK for: wordwrapjs@4.0.1 want: ^2.0.0
+350 silly placeDep node_modules/wordwrapjs typical@5.2.0 OK for: wordwrapjs@4.0.1 want: ^5.2.0
+351 silly placeDep ROOT at-least-node@1.0.0 OK for: fs-extra@9.1.0 want: ^1.0.0
+352 silly placeDep node_modules/@typechain/hardhat jsonfile@6.1.0 OK for: fs-extra@9.1.0 want: ^6.0.1
+353 silly placeDep node_modules/@typechain/hardhat universalify@2.0.1 OK for: fs-extra@9.1.0 want: ^2.0.0
+354 silly placeDep node_modules/slice-ansi color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+355 silly fetch manifest color-name@~1.1.4
+356 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+357 http fetch GET 200 https://registry.npmjs.org/color-name 155ms (cache revalidated)
+358 silly packumentCache full:https://registry.npmjs.org/color-name set size:16325 disposed:false
+359 silly placeDep node_modules/slice-ansi color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+360 silly placeDep node_modules/ts-command-line-args ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+361 silly placeDep node_modules/ts-command-line-args supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+362 silly fetch manifest has-flag@^4.0.0
+363 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+364 http fetch GET 200 https://registry.npmjs.org/has-flag 163ms (cache revalidated)
+365 silly packumentCache full:https://registry.npmjs.org/has-flag set size:15180 disposed:false
+366 silly placeDep node_modules/ts-command-line-args color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+367 silly placeDep node_modules/ts-command-line-args color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+368 silly placeDep node_modules/ts-command-line-args has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+369 silly reify mark retired [ '/root/Swiss/node_modules/@nomicfoundation/hardhat-ignition' ]
+370 silly reify mark retired [ '/root/Swiss/node_modules/@nomicfoundation/hardhat-ignition-ethers' ]
+371 silly reify mark retired [ '/root/Swiss/node_modules/@nomicfoundation/hardhat-toolbox' ]
+372 silly reify mark retired [ '/root/Swiss/node_modules/@nomicfoundation/hardhat-verify' ]
+373 silly reify mark retired [ '/root/Swiss/node_modules/@nomicfoundation/ignition-core' ]
+374 silly reify mark retired [ '/root/Swiss/node_modules/@nomicfoundation/ignition-ui' ]
+375 silly reify mark retired [ '/root/Swiss/node_modules/@typechain/ethers-v6' ]
+376 silly reify mark retired [ '/root/Swiss/node_modules/@typechain/hardhat' ]
+377 silly reify mark retired [ '/root/Swiss/node_modules/immer' ]
+378 silly reify mark retired [ '/root/Swiss/node_modules/json-stringify-safe' ]
+379 silly reify mark retired [ '/root/Swiss/node_modules/kleur' ]
+380 silly reify mark retired [
+380 silly reify   '/root/Swiss/node_modules/ndjson',
+380 silly reify   '/root/Swiss/node_modules/.bin/ndjson'
+380 silly reify ]
+381 silly reify mark retired [ '/root/Swiss/node_modules/prompts' ]
+382 silly reify mark retired [ '/root/Swiss/node_modules/sisteransi' ]
+383 silly reify mark retired [ '/root/Swiss/node_modules/split2' ]
+384 silly reify mark retired [ '/root/Swiss/node_modules/through2' ]
+385 silly reify moves {
+385 silly reify   '/root/Swiss/node_modules/@nomicfoundation/hardhat-ignition': '/root/Swiss/node_modules/@nomicfoundation/.hardhat-ignition-1Z7PByVS',
+385 silly reify   '/root/Swiss/node_modules/@nomicfoundation/hardhat-ignition-ethers': '/root/Swiss/node_modules/@nomicfoundation/.hardhat-ignition-ethers-wqWEb9HN',
+385 silly reify   '/root/Swiss/node_modules/@nomicfoundation/hardhat-toolbox': '/root/Swiss/node_modules/@nomicfoundation/.hardhat-toolbox-Bj7cWio0',
+385 silly reify   '/root/Swiss/node_modules/@nomicfoundation/hardhat-verify': '/root/Swiss/node_modules/@nomicfoundation/.hardhat-verify-z2YSPjfd',
+385 silly reify   '/root/Swiss/node_modules/@nomicfoundation/ignition-core': '/root/Swiss/node_modules/@nomicfoundation/.ignition-core-piePPycy',
+385 silly reify   '/root/Swiss/node_modules/@nomicfoundation/ignition-ui': '/root/Swiss/node_modules/@nomicfoundation/.ignition-ui-K59KDZd2',
+385 silly reify   '/root/Swiss/node_modules/@typechain/ethers-v6': '/root/Swiss/node_modules/@typechain/.ethers-v6-YEK7iLSa',
+385 silly reify   '/root/Swiss/node_modules/@typechain/hardhat': '/root/Swiss/node_modules/@typechain/.hardhat-nnLTJ6kf',
+385 silly reify   '/root/Swiss/node_modules/immer': '/root/Swiss/node_modules/.immer-BSSHT1CX',
+385 silly reify   '/root/Swiss/node_modules/json-stringify-safe': '/root/Swiss/node_modules/.json-stringify-safe-0m5PA8fI',
+385 silly reify   '/root/Swiss/node_modules/kleur': '/root/Swiss/node_modules/.kleur-3CxwUC0b',
+385 silly reify   '/root/Swiss/node_modules/ndjson': '/root/Swiss/node_modules/.ndjson-UgGbUOCt',
+385 silly reify   '/root/Swiss/node_modules/.bin/ndjson': '/root/Swiss/node_modules/.bin/.ndjson-av6bNMhc',
+385 silly reify   '/root/Swiss/node_modules/prompts': '/root/Swiss/node_modules/.prompts-4sY4mJF8',
+385 silly reify   '/root/Swiss/node_modules/sisteransi': '/root/Swiss/node_modules/.sisteransi-OI95YWkJ',
+385 silly reify   '/root/Swiss/node_modules/split2': '/root/Swiss/node_modules/.split2-tqIuneXH',
+385 silly reify   '/root/Swiss/node_modules/through2': '/root/Swiss/node_modules/.through2-WqOinPnU'
+385 silly reify }
+386 silly audit bulk request {
+386 silly audit   '@adraffy/ens-normalize': [ '1.10.1' ],
+386 silly audit   '@cspotcode/source-map-support': [ '0.8.1' ],
+386 silly audit   '@ethereumjs/rlp': [ '4.0.1' ],
+386 silly audit   '@ethereumjs/util': [ '8.1.0' ],
+386 silly audit   '@noble/curves': [ '1.4.2', '1.2.0' ],
+386 silly audit   '@noble/hashes': [ '1.4.0', '1.3.2', '1.2.0' ],
+386 silly audit   '@scure/bip32': [ '1.4.0', '1.1.5' ],
+386 silly audit   '@scure/bip39': [ '1.3.0', '1.1.1' ],
+386 silly audit   'ethereum-cryptography': [ '2.2.1', '0.1.3', '1.2.0' ],
+386 silly audit   '@ethersproject/abi': [ '5.7.0' ],
+386 silly audit   '@ethersproject/abstract-provider': [ '5.7.0' ],
+386 silly audit   '@ethersproject/abstract-signer': [ '5.7.0' ],
+386 silly audit   '@ethersproject/address': [ '5.7.0' ],
+386 silly audit   '@ethersproject/base64': [ '5.7.0' ],
+386 silly audit   '@ethersproject/basex': [ '5.7.0' ],
+386 silly audit   '@ethersproject/bignumber': [ '5.7.0' ],
+386 silly audit   '@ethersproject/bytes': [ '5.7.0' ],
+386 silly audit   '@ethersproject/constants': [ '5.7.0' ],
+386 silly audit   '@ethersproject/contracts': [ '5.7.0' ],
+386 silly audit   '@ethersproject/hash': [ '5.7.0' ],
+386 silly audit   '@ethersproject/hdnode': [ '5.7.0' ],
+386 silly audit   '@ethersproject/json-wallets': [ '5.7.0' ],
+386 silly audit   'aes-js': [ '3.0.0', '4.0.0-beta.5' ],
+386 silly audit   '@ethersproject/keccak256': [ '5.7.0' ],
+386 silly audit   '@ethersproject/logger': [ '5.7.0' ],
+386 silly audit   '@ethersproject/networks': [ '5.7.1' ],
+386 silly audit   '@ethersproject/pbkdf2': [ '5.7.0' ],
+386 silly audit   '@ethersproject/properties': [ '5.7.0' ],
+386 silly audit   '@ethersproject/providers': [ '5.7.2' ],
+386 silly audit   ws: [ '7.4.6', '8.17.1', '7.5.10' ],
+386 silly audit   '@ethersproject/random': [ '5.7.0' ],
+386 silly audit   '@ethersproject/rlp': [ '5.7.0' ],
+386 silly audit   '@ethersproject/sha2': [ '5.7.0' ],
+386 silly audit   '@ethersproject/signing-key': [ '5.7.0' ],
+386 silly audit   '@ethersproject/solidity': [ '5.7.0' ],
+386 silly audit   '@ethersproject/strings': [ '5.7.0' ],
+386 silly audit   '@ethersproject/transactions': [ '5.7.0' ],
+386 silly audit   '@ethersproject/units': [ '5.7.0' ],
+386 silly audit   '@ethersproject/wallet': [ '5.7.0' ],
+386 silly audit   '@ethersproject/web': [ '5.7.1' ],
+386 silly audit   '@ethersproject/wordlists': [ '5.7.0' ],
+386 silly audit   '@fastify/busboy': [ '2.1.1' ],
+386 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+386 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+386 silly audit   '@jridgewell/trace-mapping': [ '0.3.9' ],
+386 silly audit   '@metamask/eth-sig-util': [ '4.0.1' ],
+386 silly audit   '@noble/secp256k1': [ '1.7.1' ],
+386 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+386 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+386 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+386 silly audit   '@nomicfoundation/edr': [ '0.5.2' ],
+386 silly audit   '@nomicfoundation/edr-darwin-arm64': [ '0.5.2' ],
+386 silly audit   '@nomicfoundation/edr-darwin-x64': [ '0.5.2' ],
+386 silly audit   '@nomicfoundation/edr-linux-arm64-gnu': [ '0.5.2' ],
+386 silly audit   '@nomicfoundation/edr-linux-arm64-musl': [ '0.5.2' ],
+386 silly audit   '@nomicfoundation/edr-linux-x64-gnu': [ '0.5.2' ],
+386 silly audit   '@nomicfoundation/edr-linux-x64-musl': [ '0.5.2' ],
+386 silly audit   '@nomicfoundation/edr-win32-x64-msvc': [ '0.5.2' ],
+386 silly audit   '@nomicfoundation/ethereumjs-common': [ '4.0.4' ],
+386 silly audit   '@nomicfoundation/ethereumjs-rlp': [ '5.0.4' ],
+386 silly audit   '@nomicfoundation/ethereumjs-tx': [ '5.0.4' ],
+386 silly audit   '@nomicfoundation/ethereumjs-util': [ '9.0.4' ],
+386 silly audit   '@nomicfoundation/hardhat-chai-matchers': [ '2.0.7' ],
+386 silly audit   '@nomicfoundation/hardhat-ethers': [ '3.0.6' ],
+386 silly audit   'ansi-styles': [ '3.2.1', '4.3.0' ],
+386 silly audit   chalk: [ '4.1.2', '2.4.2' ],
+386 silly audit   'color-convert': [ '2.0.1', '1.9.3' ],
+386 silly audit   'color-name': [ '1.1.4', '1.1.3' ],
+386 silly audit   'fs-extra': [ '7.0.1', '8.1.0', '9.1.0' ],
+386 silly audit   'has-flag': [ '4.0.0', '3.0.0', '1.0.0' ],
+386 silly audit   jsonfile: [ '4.0.0', '6.1.0' ],
+386 silly audit   'supports-color': [ '7.2.0', '8.1.1', '3.2.3', '5.5.0' ],
+386 silly audit   universalify: [ '0.1.2', '2.0.1' ],
+386 silly audit   '@nomicfoundation/hardhat-network-helpers': [ '1.0.11' ],
+386 silly audit   'ethereumjs-util': [ '7.1.5', '6.2.1' ],
+386 silly audit   '@nomicfoundation/solidity-analyzer': [ '0.1.2' ],
+386 silly audit   '@nomicfoundation/solidity-analyzer-darwin-arm64': [ '0.1.2' ],
+386 silly audit   '@nomicfoundation/solidity-analyzer-darwin-x64': [ '0.1.2' ],
+386 silly audit   '@nomicfoundation/solidity-analyzer-linux-arm64-gnu': [ '0.1.2' ],
+386 silly audit   '@nomicfoundation/solidity-analyzer-linux-arm64-musl': [ '0.1.2' ],
+386 silly audit   '@nomicfoundation/solidity-analyzer-linux-x64-gnu': [ '0.1.2' ],
+386 silly audit   '@nomicfoundation/solidity-analyzer-linux-x64-musl': [ '0.1.2' ],
+386 silly audit   '@nomicfoundation/solidity-analyzer-win32-x64-msvc': [ '0.1.2' ],
+386 silly audit   '@scure/base': [ '1.1.7' ],
+386 silly audit   '@sentry/core': [ '5.30.0' ],
+386 silly audit   '@sentry/hub': [ '5.30.0' ],
+386 silly audit   '@sentry/minimal': [ '5.30.0' ],
+386 silly audit   '@sentry/node': [ '5.30.0' ],
+386 silly audit   '@sentry/tracing': [ '5.30.0' ],
+386 silly audit   '@sentry/types': [ '5.30.0' ],
+386 silly audit   '@sentry/utils': [ '5.30.0' ],
+386 silly audit   '@solidity-parser/parser': [ '0.14.5', '0.18.0' ],
+386 silly audit   '@tsconfig/node10': [ '1.0.11' ],
+386 silly audit   '@tsconfig/node12': [ '1.0.11' ],
+386 silly audit   '@tsconfig/node14': [ '1.0.3' ],
+386 silly audit   '@tsconfig/node16': [ '1.0.4' ],
+386 silly audit   '@types/bn.js': [ '5.1.5', '4.11.6' ],
+386 silly audit   '@types/chai': [ '4.3.17' ],
+386 silly audit   '@types/chai-as-promised': [ '7.1.8' ],
+386 silly audit   '@types/concat-stream': [ '1.6.1' ],
+386 silly audit   '@types/form-data': [ '0.0.33' ],
+386 silly audit   '@types/glob': [ '7.2.0' ],
+386 silly audit   '@types/lru-cache': [ '5.1.1' ],
+386 silly audit   '@types/minimatch': [ '5.1.2' ],
+386 silly audit   '@types/mocha': [ '10.0.7' ],
+386 silly audit   '@types/node': [ '22.4.1', '18.15.13', '10.17.60', '8.10.66' ],
+386 silly audit   '@types/pbkdf2': [ '3.1.2' ],
+386 silly audit   '@types/qs': [ '6.9.15' ],
+386 silly audit   '@types/secp256k1': [ '4.0.6' ],
+386 silly audit   abbrev: [ '1.0.9' ],
+386 silly audit   acorn: [ '8.12.1' ],
+386 silly audit   'acorn-walk': [ '8.3.3' ],
+386 silly audit   'adm-zip': [ '0.4.16' ],
+386 silly audit   'agent-base': [ '6.0.2' ],
+386 silly audit   'aggregate-error': [ '3.1.0' ],
+386 silly audit   amdefine: [ '1.0.1' ],
+386 silly audit   'ansi-align': [ '3.0.1' ],
+386 silly audit   'ansi-colors': [ '4.1.3' ],
+386 silly audit   'ansi-escapes': [ '4.3.2' ],
+386 silly audit   'ansi-regex': [ '5.0.1', '3.0.1' ],
+386 silly audit   antlr4ts: [ '0.5.0-alpha.4' ],
+386 silly audit   anymatch: [ '3.1.3' ],
+386 silly audit   arg: [ '4.1.3' ],
+386 silly audit   argparse: [ '2.0.1', '1.0.10' ],
+386 silly audit   'array-union': [ '2.1.0' ],
+386 silly audit   'array-uniq': [ '1.0.3' ],
+386 silly audit   asap: [ '2.0.6' ],
+386 silly audit   'assertion-error': [ '1.1.0' ],
+386 silly audit   async: [ '1.5.2' ],
+386 silly audit   asynckit: [ '0.4.0' ],
+386 silly audit   axios: [ '1.7.4' ],
+386 silly audit   'balanced-match': [ '1.0.2' ],
+386 silly audit   'base-x': [ '3.0.10' ],
+386 silly audit   bech32: [ '1.1.4', '2.0.0' ],
+386 silly audit   'binary-extensions': [ '2.3.0' ],
+386 silly audit   blakejs: [ '1.2.1' ],
+386 silly audit   'bn.js': [ '5.2.1', '4.12.0', '4.11.6' ],
+386 silly audit   boxen: [ '5.1.2' ],
+386 silly audit   'type-fest': [ '0.20.2', '0.7.1', '0.21.3' ],
+386 silly audit   'brace-expansion': [ '1.1.11', '2.0.1' ],
+386 silly audit   braces: [ '3.0.3' ],
+386 silly audit   brorand: [ '1.1.0' ],
+386 silly audit   'browser-stdout': [ '1.3.1' ],
+386 silly audit   'browserify-aes': [ '1.2.0' ],
+386 silly audit   bs58: [ '4.0.1' ],
+386 silly audit   bs58check: [ '2.1.2' ],
+386 silly audit   'buffer-from': [ '1.1.2' ],
+386 silly audit   'buffer-xor': [ '1.0.3' ],
+386 silly audit   bytes: [ '3.1.2' ],
+386 silly audit   'call-bind': [ '1.0.7' ],
+386 silly audit   camelcase: [ '6.3.0' ],
+386 silly audit   caseless: [ '0.12.0' ],
+386 silly audit   chai: [ '4.5.0' ],
+386 silly audit   'chai-as-promised': [ '7.1.2' ],
+386 silly audit   charenc: [ '0.0.2' ],
+386 silly audit   'check-error': [ '1.0.3' ],
+386 silly audit   chokidar: [ '3.6.0' ],
+386 silly audit   'ci-info': [ '2.0.0' ],
+386 silly audit   'cipher-base': [ '1.0.4' ],
+386 silly audit   'clean-stack': [ '2.2.0' ],
+386 silly audit   'cli-boxes': [ '2.2.1' ],
+386 silly audit   'cli-table3': [ '0.5.1' ],
+386 silly audit   'is-fullwidth-code-point': [ '2.0.0', '3.0.0' ],
+386 silly audit   'string-width': [ '2.1.1', '4.2.3' ],
+386 silly audit   'strip-ansi': [ '4.0.0', '6.0.1' ],
+386 silly audit   cliui: [ '7.0.4' ],
+386 silly audit   colors: [ '1.4.0' ],
+386 silly audit   'combined-stream': [ '1.0.8' ],
+386 silly audit   'command-exists': [ '1.2.9' ],
+386 silly audit   commander: [ '8.3.0' ],
+386 silly audit   'concat-map': [ '0.0.1' ],
+386 silly audit   'concat-stream': [ '1.6.2' ],
+386 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+386 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+386 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+386 silly audit   cookie: [ '0.4.2' ],
+386 silly audit   'core-util-is': [ '1.0.3' ],
+386 silly audit   'create-hash': [ '1.2.0' ],
+386 silly audit   'create-hmac': [ '1.1.7' ],
+386 silly audit   'create-require': [ '1.1.1' ],
+386 silly audit   crypt: [ '0.0.2' ],
+386 silly audit   death: [ '1.1.0' ],
+386 silly audit   debug: [ '4.3.6' ],
+386 silly audit   decamelize: [ '4.0.0' ],
+386 silly audit   'deep-eql': [ '4.1.4' ],
+386 silly audit   'deep-is': [ '0.1.4' ],
+386 silly audit   'define-data-property': [ '1.1.4' ],
+386 silly audit   'delayed-stream': [ '1.0.0' ],
+386 silly audit   depd: [ '2.0.0' ],
+386 silly audit   diff: [ '5.2.0', '4.0.2' ],
+386 silly audit   difflib: [ '0.2.4' ],
+386 silly audit   'dir-glob': [ '3.0.1' ],
+386 silly audit   elliptic: [ '6.5.4' ],
+386 silly audit   'emoji-regex': [ '8.0.0' ],
+386 silly audit   enquirer: [ '2.4.1' ],
+386 silly audit   'env-paths': [ '2.2.1' ],
+386 silly audit   'es-define-property': [ '1.0.0' ],
+386 silly audit   'es-errors': [ '1.3.0' ],
+386 silly audit   escalade: [ '3.1.2' ],
+386 silly audit   'escape-string-regexp': [ '1.0.5', '4.0.0' ],
+386 silly audit   escodegen: [ '1.8.1' ],
+386 silly audit   'source-map': [ '0.2.0', '0.6.1' ],
+386 silly audit   esprima: [ '2.7.3', '4.0.1' ],
+386 silly audit   estraverse: [ '1.9.3' ],
+386 silly audit   esutils: [ '2.0.3' ],
+386 silly audit   'eth-gas-reporter': [ '0.2.27' ],
+386 silly audit   ethers: [ '5.7.2', '6.13.2' ],
+386 silly audit   'ethereum-bloom-filters': [ '1.2.0' ],
+386 silly audit   'ethereumjs-abi': [ '0.6.8' ],
+386 silly audit   tslib: [ '2.4.0', '1.14.1' ],
+386 silly audit   'ethjs-unit': [ '0.1.6' ],
+386 silly audit   'ethjs-util': [ '0.1.6' ],
+386 silly audit   evp_bytestokey: [ '1.0.3' ],
+386 silly audit   'fast-glob': [ '3.3.2' ],
+386 silly audit   'fast-levenshtein': [ '2.0.6' ],
+386 silly audit   fastq: [ '1.17.1' ],
+386 silly audit   'fill-range': [ '7.1.1' ],
+386 silly audit   'find-up': [ '2.1.0', '5.0.0' ],
+386 silly audit   flat: [ '5.0.2' ],
+386 silly audit   'follow-redirects': [ '1.15.6' ],
+386 silly audit   'form-data': [ '4.0.0', '2.5.1' ],
+386 silly audit   'fp-ts': [ '1.19.3' ],
+386 silly audit   'fs-readdir-recursive': [ '1.1.0' ],
+386 silly audit   'fs.realpath': [ '1.0.0' ],
+386 silly audit   fsevents: [ '2.3.3' ],
+386 silly audit   'function-bind': [ '1.1.2' ],
+386 silly audit   'get-caller-file': [ '2.0.5' ],
+386 silly audit   'get-func-name': [ '2.0.2' ],
+386 silly audit   'get-intrinsic': [ '1.2.4' ],
+386 silly audit   'get-port': [ '3.2.0' ],
+386 silly audit   'ghost-testrpc': [ '0.0.2' ],
+386 silly audit   glob: [ '7.2.0', '8.1.0', '5.0.15', '7.1.7' ],
+386 silly audit   'glob-parent': [ '5.1.2' ],
+386 silly audit   'global-modules': [ '2.0.0' ],
+386 silly audit   'global-prefix': [ '3.0.0' ],
+386 silly audit   globby: [ '10.0.2' ],
+386 silly audit   gopd: [ '1.0.1' ],
+386 silly audit   'graceful-fs': [ '4.2.11' ],
+386 silly audit   handlebars: [ '4.7.8' ],
+386 silly audit   hardhat: [ '2.22.8' ],
+386 silly audit   'hardhat-gas-reporter': [ '1.0.10' ],
+386 silly audit   'has-property-descriptors': [ '1.0.2' ],
+386 silly audit   'has-proto': [ '1.0.3' ],
+386 silly audit   'has-symbols': [ '1.0.3' ],
+386 silly audit   'hash-base': [ '3.1.0' ],
+386 silly audit   'hash.js': [ '1.1.7' ],
+386 silly audit   hasown: [ '2.0.2' ],
+386 silly audit   he: [ '1.2.0' ],
+386 silly audit   heap: [ '0.2.7' ],
+386 silly audit   'hmac-drbg': [ '1.0.1' ],
+386 silly audit   'http-basic': [ '8.1.3' ],
+386 silly audit   'http-errors': [ '2.0.0' ],
+386 silly audit   'http-response-object': [ '3.0.2' ],
+386 silly audit   'https-proxy-agent': [ '5.0.1' ],
+386 silly audit   'iconv-lite': [ '0.4.24' ],
+386 silly audit   ignore: [ '5.3.2' ],
+386 silly audit   immutable: [ '4.3.7' ],
+386 silly audit   'indent-string': [ '4.0.0' ],
+386 silly audit   inflight: [ '1.0.6' ],
+386 silly audit   inherits: [ '2.0.4' ],
+386 silly audit   ini: [ '1.3.8' ],
+386 silly audit   interpret: [ '1.4.0' ],
+386 silly audit   'io-ts': [ '1.10.4' ],
+386 silly audit   'is-binary-path': [ '2.1.0' ],
+386 silly audit   'is-extglob': [ '2.1.1' ],
+386 silly audit   'is-glob': [ '4.0.3' ],
+386 silly audit   'is-hex-prefixed': [ '1.0.0' ],
+386 silly audit   'is-number': [ '7.0.0' ],
+386 silly audit   'is-plain-obj': [ '2.1.0' ],
+386 silly audit   'is-unicode-supported': [ '0.1.0' ],
+386 silly audit   isarray: [ '1.0.0' ],
+386 silly audit   isexe: [ '2.0.0' ],
+386 silly audit   'js-sha3': [ '0.8.0' ],
+386 silly audit   'js-yaml': [ '4.1.0', '3.14.1' ],
+386 silly audit   jsonschema: [ '1.4.1' ],
+386 silly audit   keccak: [ '3.0.4' ],
+386 silly audit   'kind-of': [ '6.0.3' ],
+386 silly audit   levn: [ '0.3.0' ],
+386 silly audit   'locate-path': [ '2.0.0', '6.0.0' ],
+386 silly audit   lodash: [ '4.17.21' ],
+386 silly audit   'lodash.isequal': [ '4.5.0' ],
+386 silly audit   'log-symbols': [ '4.1.0' ],
+386 silly audit   loupe: [ '2.3.7' ],
+386 silly audit   lru_map: [ '0.3.3' ],
+386 silly audit   'make-error': [ '1.3.6' ],
+386 silly audit   'markdown-table': [ '1.1.3' ],
+386 silly audit   'md5.js': [ '1.3.5' ],
+386 silly audit   memorystream: [ '0.3.1' ],
+386 silly audit   merge2: [ '1.4.1' ],
+386 silly audit   'micro-ftch': [ '0.3.1' ],
+386 silly audit   micromatch: [ '4.0.7' ],
+386 silly audit   'mime-db': [ '1.52.0' ],
+386 silly audit   'mime-types': [ '2.1.35' ],
+386 silly audit   'minimalistic-assert': [ '1.0.1' ],
+386 silly audit   'minimalistic-crypto-utils': [ '1.0.1' ],
+386 silly audit   minimatch: [ '3.1.2', '5.1.6' ],
+386 silly audit   minimist: [ '1.2.8' ],
+386 silly audit   mkdirp: [ '0.5.6', '1.0.4' ],
+386 silly audit   mnemonist: [ '0.38.5' ],
+386 silly audit   mocha: [ '10.7.3' ],
+386 silly audit   ms: [ '2.1.3', '2.1.2' ],
+386 silly audit   'p-limit': [ '3.1.0', '1.3.0' ],
+386 silly audit   'p-locate': [ '5.0.0', '2.0.0' ],
+386 silly audit   'path-exists': [ '4.0.0', '3.0.0' ],
+386 silly audit   'neo-async': [ '2.6.2' ],
+386 silly audit   'node-addon-api': [ '2.0.2' ],
+386 silly audit   'node-emoji': [ '1.11.0' ],
+386 silly audit   'node-gyp-build': [ '4.8.1' ],
+386 silly audit   nopt: [ '3.0.6' ],
+386 silly audit   'normalize-path': [ '3.0.0' ],
+386 silly audit   'number-to-bn': [ '1.7.0' ],
+386 silly audit   'object-assign': [ '4.1.1' ],
+386 silly audit   'object-inspect': [ '1.13.2' ],
+386 silly audit   obliterator: [ '2.0.4' ],
+386 silly audit   once: [ '1.4.0' ],
+386 silly audit   optionator: [ '0.8.3' ],
+386 silly audit   ordinal: [ '1.0.3' ],
+386 silly audit   'os-tmpdir': [ '1.0.2' ],
+386 silly audit   'p-map': [ '4.0.0' ],
+386 silly audit   'p-try': [ '1.0.0' ],
+386 silly audit   'parse-cache-control': [ '1.0.1' ],
+386 silly audit   'path-is-absolute': [ '1.0.1' ],
+386 silly audit   'path-parse': [ '1.0.7' ],
+386 silly audit   'path-type': [ '4.0.0' ],
+386 silly audit   pathval: [ '1.1.1' ],
+386 silly audit   pbkdf2: [ '3.1.2' ],
+386 silly audit   picomatch: [ '2.3.1' ],
+386 silly audit   pify: [ '4.0.1' ],
+386 silly audit   'prelude-ls': [ '1.1.2' ],
+386 silly audit   'process-nextick-args': [ '2.0.1' ],
+386 silly audit   promise: [ '8.3.0' ],
+386 silly audit   'proxy-from-env': [ '1.1.0' ],
+386 silly audit   qs: [ '6.13.0' ],
+386 silly audit   'queue-microtask': [ '1.2.3' ],
+386 silly audit   randombytes: [ '2.1.0' ],
+386 silly audit   'raw-body': [ '2.5.2' ],
+386 silly audit   readdirp: [ '3.6.0' ],
+386 silly audit   rechoir: [ '0.6.2' ],
+386 silly audit   'recursive-readdir': [ '2.2.3' ],
+386 silly audit   'req-cwd': [ '2.0.0' ],
+386 silly audit   'req-from': [ '2.0.0' ],
+386 silly audit   'require-directory': [ '2.1.1' ],
+386 silly audit   resolve: [ '1.17.0', '1.1.7' ],
+386 silly audit   'resolve-from': [ '3.0.0' ],
+386 silly audit   reusify: [ '1.0.4' ],
+386 silly audit   ripemd160: [ '2.0.2' ],
+386 silly audit   rlp: [ '2.2.7', '3.0.0' ],
+386 silly audit   'run-parallel': [ '1.2.0' ],
+386 silly audit   'safer-buffer': [ '2.1.2' ],
+386 silly audit   'sc-istanbul': [ '0.4.6' ],
+386 silly audit   'scrypt-js': [ '3.0.1' ],
+386 silly audit   secp256k1: [ '4.0.3' ],
+386 silly audit   semver: [ '6.3.1', '5.7.2', '7.6.3' ],
+386 silly audit   'serialize-javascript': [ '6.0.2' ],
+386 silly audit   'set-function-length': [ '1.2.2' ],
+386 silly audit   setimmediate: [ '1.0.5' ],
+386 silly audit   setprototypeof: [ '1.2.0' ],
+386 silly audit   'sha.js': [ '2.4.11' ],
+386 silly audit   sha1: [ '1.1.1' ],
+386 silly audit   shelljs: [ '0.8.5' ],
+386 silly audit   'side-channel': [ '1.0.6' ],
+386 silly audit   slash: [ '3.0.0' ],
+386 silly audit   solc: [ '0.8.26' ],
+386 silly audit   'solidity-coverage': [ '0.8.12' ],
+386 silly audit   'source-map-support': [ '0.5.21' ],
+386 silly audit   'sprintf-js': [ '1.0.3' ],
+386 silly audit   'stacktrace-parser': [ '0.1.10' ],
+386 silly audit   statuses: [ '2.0.1' ],
+386 silly audit   'strip-hex-prefix': [ '1.0.0' ],
+386 silly audit   'strip-json-comments': [ '3.1.1' ],
+386 silly audit   'sync-request': [ '6.1.0' ],
+386 silly audit   'sync-rpc': [ '1.3.6' ],
+386 silly audit   'then-request': [ '6.0.2' ],
+386 silly audit   tmp: [ '0.0.33' ],
+386 silly audit   'to-regex-range': [ '5.0.1' ],
+386 silly audit   toidentifier: [ '1.0.1' ],
+386 silly audit   'ts-node': [ '10.9.2' ],
+386 silly audit   tsort: [ '0.0.1' ],
+386 silly audit   tweetnacl: [ '1.0.3' ],
+386 silly audit   'tweetnacl-util': [ '0.15.1' ],
+386 silly audit   'type-check': [ '0.3.2' ],
+386 silly audit   'type-detect': [ '4.1.0' ],
+386 silly audit   typedarray: [ '0.0.6' ],
+386 silly audit   typescript: [ '5.5.4' ],
+386 silly audit   'uglify-js': [ '3.19.2' ],
+386 silly audit   undici: [ '5.28.4' ],
+386 silly audit   'undici-types': [ '6.19.8' ],
+386 silly audit   unpipe: [ '1.0.0' ],
+386 silly audit   utf8: [ '3.0.0' ],
+386 silly audit   'util-deprecate': [ '1.0.2' ],
+386 silly audit   uuid: [ '8.3.2' ],
+386 silly audit   'v8-compile-cache-lib': [ '3.0.1' ],
+386 silly audit   'web3-utils': [ '1.10.4' ],
+386 silly audit   which: [ '1.3.1' ],
+386 silly audit   'widest-line': [ '3.1.0' ],
+386 silly audit   'word-wrap': [ '1.2.5' ],
+386 silly audit   wordwrap: [ '1.0.0' ],
+386 silly audit   workerpool: [ '6.5.1' ],
+386 silly audit   'wrap-ansi': [ '7.0.0' ],
+386 silly audit   wrappy: [ '1.0.2' ],
+386 silly audit   y18n: [ '5.0.8' ],
+386 silly audit   yargs: [ '16.2.0' ],
+386 silly audit   'yargs-parser': [ '20.2.9' ],
+386 silly audit   'yargs-unparser': [ '2.0.0' ],
+386 silly audit   yn: [ '3.1.1' ],
+386 silly audit   'yocto-queue': [ '0.1.0' ],
+386 silly audit   '@nomicfoundation/hardhat-toolbox': [ '3.0.0' ],
+386 silly audit   typechain: [ '8.3.2' ],
+386 silly audit   '@typechain/hardhat': [ '8.0.3' ],
+386 silly audit   '@typechain/ethers-v6': [ '0.4.3' ],
+386 silly audit   '@nomicfoundation/hardhat-verify': [ '1.1.1' ],
+386 silly audit   '@openzeppelin/contracts': [ '4.9.6' ],
+386 silly audit   '@swisstronik/utils': [ '1.3.0' ],
+386 silly audit   cbor: [ '8.1.0' ],
+386 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+386 silly audit   table: [ '6.8.2' ],
+386 silly audit   '@oasisprotocol/deoxysii': [ '0.0.5' ],
+386 silly audit   bsaes: [ '0.0.2' ],
+386 silly audit   uint32: [ '0.2.1' ],
+386 silly audit   'ts-essentials': [ '7.0.3' ],
+386 silly audit   nofilter: [ '3.1.0' ],
+386 silly audit   ajv: [ '8.17.1' ],
+386 silly audit   'lodash.truncate': [ '4.4.2' ],
+386 silly audit   'slice-ansi': [ '4.0.0' ],
+386 silly audit   'fast-deep-equal': [ '3.1.3' ],
+386 silly audit   'fast-uri': [ '3.0.1' ],
+386 silly audit   'json-schema-traverse': [ '1.0.0' ],
+386 silly audit   'require-from-string': [ '2.0.2' ],
+386 silly audit   'astral-regex': [ '2.0.0' ],
+386 silly audit   '@types/prettier': [ '2.7.3' ],
+386 silly audit   prettier: [ '2.8.8' ],
+386 silly audit   'ts-command-line-args': [ '2.5.1' ],
+386 silly audit   'command-line-args': [ '5.2.1' ],
+386 silly audit   'command-line-usage': [ '6.1.3' ],
+386 silly audit   'string-format': [ '2.0.0' ],
+386 silly audit   'array-back': [ '3.1.0', '4.0.2' ],
+386 silly audit   'find-replace': [ '3.0.0' ],
+386 silly audit   'lodash.camelcase': [ '4.3.0' ],
+386 silly audit   typical: [ '4.0.0', '5.2.0' ],
+386 silly audit   'table-layout': [ '1.0.2' ],
+386 silly audit   'deep-extend': [ '0.6.0' ],
+386 silly audit   wordwrapjs: [ '4.0.1' ],
+386 silly audit   'reduce-flatten': [ '2.0.0' ],
+386 silly audit   'at-least-node': [ '1.0.0' ]
+386 silly audit }
+387 verbose reify failed optional dependency /root/Swiss/node_modules/fsevents
+388 silly reify mark deleted [ '/root/Swiss/node_modules/fsevents' ]
+389 silly tarball no local data for uint32@https://registry.npmjs.org/uint32/-/uint32-0.2.1.tgz. Extracting by manifest.
+390 silly tarball no local data for bsaes@https://registry.npmjs.org/bsaes/-/bsaes-0.0.2.tgz. Extracting by manifest.
+391 silly tarball no local data for @openzeppelin/contracts@https://registry.npmjs.org/@openzeppelin/contracts/-/contracts-4.9.6.tgz. Extracting by manifest.
+392 silly tarball no local data for @oasisprotocol/deoxysii@https://registry.npmjs.org/@oasisprotocol/deoxysii/-/deoxysii-0.0.5.tgz. Extracting by manifest.
+393 silly tarball no local data for @swisstronik/utils@https://registry.npmjs.org/@swisstronik/utils/-/utils-1.3.0.tgz. Extracting by manifest.
+394 silly tarball no local data for @typechain/hardhat@https://registry.npmjs.org/@typechain/hardhat/-/hardhat-8.0.3.tgz. Extracting by manifest.
+395 silly tarball no local data for bech32@https://registry.npmjs.org/bech32/-/bech32-2.0.0.tgz. Extracting by manifest.
+396 silly tarball no local data for @nomicfoundation/hardhat-verify@https://registry.npmjs.org/@nomicfoundation/hardhat-verify/-/hardhat-verify-1.1.1.tgz. Extracting by manifest.
+397 silly tarball no local data for @typechain/ethers-v6@https://registry.npmjs.org/@typechain/ethers-v6/-/ethers-v6-0.4.3.tgz. Extracting by manifest.
+398 silly tarball no local data for @nomicfoundation/hardhat-toolbox@https://registry.npmjs.org/@nomicfoundation/hardhat-toolbox/-/hardhat-toolbox-3.0.0.tgz. Extracting by manifest.
+399 silly tarball no local data for rlp@https://registry.npmjs.org/rlp/-/rlp-3.0.0.tgz. Extracting by manifest.
+400 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 614ms
+401 silly audit report {
+401 silly audit report   ws: [
+401 silly audit report     {
+401 silly audit report       id: 1098393,
+401 silly audit report       url: 'https://github.com/advisories/GHSA-3h5v-q93c-6h6q',
+401 silly audit report       title: 'ws affected by a DoS when handling a request with many HTTP headers',
+401 silly audit report       severity: 'high',
+401 silly audit report       vulnerable_versions: '>=7.0.0 <7.5.10',
+401 silly audit report       cwe: [Array],
+401 silly audit report       cvss: [Object]
+401 silly audit report     }
+401 silly audit report   ],
+401 silly audit report   elliptic: [
+401 silly audit report     {
+401 silly audit report       id: 1098593,
+401 silly audit report       url: 'https://github.com/advisories/GHSA-f7q4-pwc6-w24p',
+401 silly audit report       title: "Elliptic's EDDSA missing signature length check",
+401 silly audit report       severity: 'low',
+401 silly audit report       vulnerable_versions: '>=4.0.0 <=6.5.6',
+401 silly audit report       cwe: [Array],
+401 silly audit report       cvss: [Object]
+401 silly audit report     },
+401 silly audit report     {
+401 silly audit report       id: 1098594,
+401 silly audit report       url: 'https://github.com/advisories/GHSA-977x-g7h5-7qgw',
+401 silly audit report       title: "Elliptic's ECDSA missing check for whether leading bit of r and s is zero",
+401 silly audit report       severity: 'low',
+401 silly audit report       vulnerable_versions: '>=2.0.0 <=6.5.6',
+401 silly audit report       cwe: [Array],
+401 silly audit report       cvss: [Object]
+401 silly audit report     },
+401 silly audit report     {
+401 silly audit report       id: 1098595,
+401 silly audit report       url: 'https://github.com/advisories/GHSA-49q7-c7j4-3p7m',
+401 silly audit report       title: 'Elliptic allows BER-encoded signatures',
+401 silly audit report       severity: 'low',
+401 silly audit report       vulnerable_versions: '>=5.2.1 <=6.5.6',
+401 silly audit report       cwe: [Array],
+401 silly audit report       cvss: [Object]
+401 silly audit report     }
+401 silly audit report   ]
+401 silly audit report }
+402 silly packumentCache corgi:https://registry.npmjs.org/ws cache-miss
+403 silly packumentCache corgi:https://registry.npmjs.org/elliptic cache-miss
+404 http fetch GET 200 https://registry.npmjs.org/@typechain/hardhat/-/hardhat-8.0.3.tgz 640ms (cache miss)
+405 http fetch GET 200 https://registry.npmjs.org/bsaes/-/bsaes-0.0.2.tgz 658ms (cache miss)
+406 http fetch GET 200 https://registry.npmjs.org/uint32/-/uint32-0.2.1.tgz 664ms (cache miss)
+407 http fetch GET 200 https://registry.npmjs.org/@oasisprotocol/deoxysii/-/deoxysii-0.0.5.tgz 671ms (cache miss)
+408 http fetch GET 200 https://registry.npmjs.org/elliptic 189ms (cache revalidated)
+409 silly packumentCache corgi:https://registry.npmjs.org/elliptic set size:64999 disposed:false
+410 http fetch GET 200 https://registry.npmjs.org/ws 233ms (cache revalidated)
+411 silly packumentCache corgi:https://registry.npmjs.org/ws set size:190597 disposed:false
+412 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fproviders cache-miss
+413 http fetch GET 200 https://registry.npmjs.org/bech32/-/bech32-2.0.0.tgz 1004ms (cache miss)
+414 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fproviders 206ms (cache revalidated)
+415 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fproviders set size:248939 disposed:false
+416 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fsigning-key cache-miss
+417 silly packumentCache corgi:https://registry.npmjs.org/ethereumjs-util cache-miss
+418 silly packumentCache corgi:https://registry.npmjs.org/secp256k1 cache-miss
+419 http fetch GET 200 https://registry.npmjs.org/rlp/-/rlp-3.0.0.tgz 1017ms (cache miss)
+420 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation/hardhat-toolbox/-/hardhat-toolbox-3.0.0.tgz 1081ms (cache miss)
+421 http fetch GET 200 https://registry.npmjs.org/@typechain/ethers-v6/-/ethers-v6-0.4.3.tgz 1129ms (cache miss)
+422 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation/hardhat-verify/-/hardhat-verify-1.1.1.tgz 1159ms (cache miss)
+423 http fetch GET 200 https://registry.npmjs.org/ethereumjs-util 175ms (cache revalidated)
+424 silly packumentCache corgi:https://registry.npmjs.org/ethereumjs-util set size:95236 disposed:false
+425 http fetch GET 200 https://registry.npmjs.org/secp256k1 177ms (cache revalidated)
+426 silly packumentCache corgi:https://registry.npmjs.org/secp256k1 set size:62615 disposed:false
+427 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fsigning-key 254ms (cache revalidated)
+428 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fsigning-key set size:73186 disposed:false
+429 silly packumentCache corgi:https://registry.npmjs.org/ethers cache-miss
+430 http fetch GET 200 https://registry.npmjs.org/@openzeppelin/contracts/-/contracts-4.9.6.tgz 1325ms (cache miss)
+431 http fetch GET 200 https://registry.npmjs.org/@swisstronik/utils/-/utils-1.3.0.tgz 1329ms (cache miss)
+432 http fetch GET 200 https://registry.npmjs.org/ethers 266ms (cache revalidated)
+433 silly packumentCache corgi:https://registry.npmjs.org/ethers set size:678558 disposed:false
+434 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fhdnode cache-miss
+435 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2ftransactions cache-miss
+436 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fwallet cache-miss
+437 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2ftransactions 347ms (cache revalidated)
+438 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2ftransactions set size:84280 disposed:false
+439 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fwallet 347ms (cache revalidated)
+440 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fwallet set size:112557 disposed:false
+441 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fhdnode 349ms (cache revalidated)
+442 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fhdnode set size:88518 disposed:false
+443 silly packumentCache corgi:https://registry.npmjs.org/eth-gas-reporter cache-miss
+444 silly packumentCache corgi:https://registry.npmjs.org/@swisstronik%2futils cache-miss
+445 http fetch GET 200 https://registry.npmjs.org/eth-gas-reporter 713ms (cache revalidated)
+446 silly packumentCache corgi:https://registry.npmjs.org/eth-gas-reporter set size:110101 disposed:false
+447 http fetch GET 200 https://registry.npmjs.org/@swisstronik%2futils 1195ms (cache miss)
+448 silly packumentCache corgi:https://registry.npmjs.org/@swisstronik%2futils set size:undefined disposed:false
+449 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fabstract-provider cache-miss
+450 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fcontracts cache-miss
+451 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fjson-wallets cache-miss
+452 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fabstract-provider 198ms (cache revalidated)
+453 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fabstract-provider set size:85713 disposed:false
+454 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fjson-wallets 205ms (cache revalidated)
+455 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fjson-wallets set size:83133 disposed:false
+456 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fcontracts 244ms (cache revalidated)
+457 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fcontracts set size:120426 disposed:false
+458 silly packumentCache corgi:https://registry.npmjs.org/hardhat-gas-reporter cache-miss
+459 http fetch GET 200 https://registry.npmjs.org/hardhat-gas-reporter 741ms (cache revalidated)
+460 silly packumentCache corgi:https://registry.npmjs.org/hardhat-gas-reporter set size:66215 disposed:false
+461 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fabstract-signer cache-miss
+462 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fabstract-signer 186ms (cache revalidated)
+463 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fabstract-signer set size:91647 disposed:false
+464 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fhash cache-miss
+465 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fhash 217ms (cache revalidated)
+466 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fhash set size:80837 disposed:false
+467 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fabi cache-miss
+468 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fwordlists cache-miss
+469 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fabi 180ms (cache revalidated)
+470 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fabi set size:135291 disposed:false
+471 http fetch GET 200 https://registry.npmjs.org/@ethersproject%2fwordlists 236ms (cache revalidated)
+472 silly packumentCache corgi:https://registry.npmjs.org/@ethersproject%2fwordlists set size:72894 disposed:false
+473 silly packumentCache corgi:https://registry.npmjs.org/hardhat cache-miss
+474 silly packumentCache corgi:https://registry.npmjs.org/solidity-coverage cache-miss
+475 silly packumentCache corgi:https://registry.npmjs.org/@nomicfoundation%2fhardhat-verify cache-miss
+476 http fetch GET 200 https://registry.npmjs.org/hardhat 211ms (cache revalidated)
+477 silly packumentCache corgi:https://registry.npmjs.org/hardhat set size:512614 disposed:false
+478 http fetch GET 200 https://registry.npmjs.org/solidity-coverage 760ms (cache revalidated)
+479 silly packumentCache corgi:https://registry.npmjs.org/solidity-coverage set size:216097 disposed:false
+480 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-verify 1391ms (cache revalidated)
+481 silly packumentCache corgi:https://registry.npmjs.org/@nomicfoundation%2fhardhat-verify set size:28943 disposed:false
+482 silly packumentCache corgi:https://registry.npmjs.org/@nomicfoundation%2fhardhat-chai-matchers cache-miss
+483 silly packumentCache corgi:https://registry.npmjs.org/@nomicfoundation%2fhardhat-ethers cache-miss
+484 silly packumentCache corgi:https://registry.npmjs.org/@nomicfoundation%2fhardhat-network-helpers cache-miss
+485 silly packumentCache corgi:https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox cache-miss
+486 silly packumentCache corgi:https://registry.npmjs.org/@typechain%2fhardhat cache-miss
+487 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-network-helpers 791ms (cache revalidated)
+488 silly packumentCache corgi:https://registry.npmjs.org/@nomicfoundation%2fhardhat-network-helpers set size:35785 disposed:false
+489 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-chai-matchers 1131ms (cache revalidated)
+490 silly packumentCache corgi:https://registry.npmjs.org/@nomicfoundation%2fhardhat-chai-matchers set size:45949 disposed:false
+491 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox 1300ms (cache revalidated)
+492 silly packumentCache corgi:https://registry.npmjs.org/@nomicfoundation%2fhardhat-toolbox set size:33137 disposed:false
+493 http fetch GET 200 https://registry.npmjs.org/@typechain%2fhardhat 1356ms (cache revalidated)
+494 silly packumentCache corgi:https://registry.npmjs.org/@typechain%2fhardhat set size:48306 disposed:false
+495 http fetch GET 200 https://registry.npmjs.org/@nomicfoundation%2fhardhat-ethers 1623ms (cache revalidated)
+496 silly packumentCache corgi:https://registry.npmjs.org/@nomicfoundation%2fhardhat-ethers set size:9193 disposed:false
+497 silly ADD node_modules/uint32
+498 silly ADD node_modules/bsaes
+499 silly ADD node_modules/@oasisprotocol/deoxysii
+500 silly ADD node_modules/@swisstronik/utils
+501 silly ADD node_modules/@swisstronik/utils/node_modules/rlp
+502 silly ADD node_modules/@swisstronik/utils/node_modules/ethers
+503 silly ADD node_modules/@swisstronik/utils/node_modules/bech32
+504 silly ADD node_modules/@swisstronik/utils/node_modules/@noble/hashes
+505 silly ADD node_modules/@openzeppelin/contracts
+506 silly ADD
+507 silly REMOVE node_modules/through2
+508 silly REMOVE node_modules/split2
+509 silly REMOVE node_modules/sisteransi
+510 silly REMOVE node_modules/prompts
+511 silly REMOVE node_modules/ndjson
+512 silly REMOVE node_modules/kleur
+513 silly REMOVE node_modules/json-stringify-safe
+514 silly REMOVE node_modules/immer
+515 silly CHANGE node_modules/@typechain/hardhat
+516 silly CHANGE node_modules/@typechain/ethers-v6
+517 silly REMOVE node_modules/@nomicfoundation/ignition-ui
+518 silly REMOVE node_modules/@nomicfoundation/ignition-core
+519 silly REMOVE node_modules/@nomicfoundation/ignition-core/node_modules/universalify
+520 silly REMOVE node_modules/@nomicfoundation/ignition-core/node_modules/jsonfile
+521 silly REMOVE node_modules/@nomicfoundation/ignition-core/node_modules/fs-extra
+522 silly REMOVE node_modules/@nomicfoundation/ignition-core/node_modules/cbor
+523 silly REMOVE node_modules/@nomicfoundation/ignition-core/node_modules/@ethersproject/address
+524 silly CHANGE node_modules/@nomicfoundation/hardhat-verify
+525 silly CHANGE node_modules/@nomicfoundation/hardhat-toolbox
+526 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition-ethers
+527 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition
+528 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/universalify
+529 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/supports-color
+530 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/jsonfile
+531 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/has-flag
+532 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/fs-extra
+533 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/color-name
+534 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/color-convert
+535 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/chalk
+536 silly REMOVE node_modules/@nomicfoundation/hardhat-ignition/node_modules/ansi-styles
+537 verbose cwd /root/Swiss/contracts
+538 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+539 verbose node v20.16.0
+540 verbose npm  v10.8.1
+541 verbose exit 0
+542 info ok
